@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainComposite",
+            "request": "launch",
+            "mainClass": "composite.MainComposite",
+            "projectName": "patron_composite_ef80719e"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutar MainComposite",
+            "request": "launch",
+            "mainClass": "composite.MainComposite",
+            "projectName": "patron_composite"
+        }
+    ]
+}
