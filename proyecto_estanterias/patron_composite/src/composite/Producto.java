@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class Producto implements InventarioComponent {
 
-    private final String nombre;
+    private String nombre;
     private final String sku;
     private final String proveedor;
     private final double precio;
@@ -37,6 +37,7 @@ public class Producto implements InventarioComponent {
     }
 
     @Override public String getNombre()       { return nombre; }
+    @Override public void setNombre(String nombre) { this.nombre = nombre; }
     @Override public int getCantidadTotal()   { return stock; }
     @Override public double getValorTotal()   { return stock * precio; }
     @Override public int contarProductos()    { return 1; }

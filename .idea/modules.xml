@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Prototipos_DetalladoSoftare.iml" filepath="$PROJECT_DIR$/.idea/Prototipos_DetalladoSoftare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proyecto_estanterias/patron_composite/patron_composite.iml" filepath="$PROJECT_DIR$/proyecto_estanterias/patron_composite/patron_composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proyecto_estanterias/patron_visitor/patron_visitor.iml" filepath="$PROJECT_DIR$/proyecto_estanterias/patron_visitor/patron_visitor.iml" />
+    </modules>
+  </component>
+</project>

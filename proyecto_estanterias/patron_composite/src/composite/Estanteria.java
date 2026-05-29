@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class Estanteria implements InventarioComponent {
 
-    private final String nombre;
+    private String nombre;
     private final String zona;
     private final List<InventarioComponent> productos = new ArrayList<>();
 
@@ -37,6 +37,8 @@ public class Estanteria implements InventarioComponent {
     // ── InventarioComponent ───────────────────────────────────────────────
 
     @Override public String getNombre() { return nombre; }
+
+    @Override public void setNombre(String nombre) { this.nombre = nombre; }
 
     /** Delega a cada producto hijo y suma. El cliente no nota la diferencia. */
     @Override

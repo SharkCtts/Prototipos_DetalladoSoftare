@@ -87,3 +87,11 @@ Aplica dos visitors sobre la misma jerarquía:
 - **AlertaMantenimiento**: revisa los sensores de cada estantería y reporta fallos.
 Demuestra que agregar una nueva funcionalidad (nuevo visitor) no requiere
 modificar Estanteria, Producto ni SensorIoT.
+
+### Demos gráficos
+Se agregaron dos clases GUI para probar los patrones con botones y paneles de salida:
+- `patron_composite/src/composite/MainCompositeGUI.java` → demo gráfico del Patrón Composite.
+- `patron_visitor/src/visitor/MainVisitorGUI.java` → demo gráfico del Patrón Visitor.
+
+Abrir cada proyecto en VS Code y ejecutar `MainCompositeGUI` o `MainVisitorGUI`
+para ver el prototipo de front básico.

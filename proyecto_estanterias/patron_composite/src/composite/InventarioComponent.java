@@ -31,6 +31,11 @@ public interface InventarioComponent {
     String getNombre();
 
     /**
+     * Cambia el nombre del nodo.
+     */
+    void setNombre(String nombre);
+
+    /**
      * Cantidad total de unidades.
      * Hojas: retorna su propio stock.
      * Compuestos: suma recursiva de todos sus hijos.

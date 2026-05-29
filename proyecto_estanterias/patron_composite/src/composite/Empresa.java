@@ -21,7 +21,7 @@ import java.util.List;
  */
 public class Empresa implements InventarioComponent {
 
-    private final String nombre;
+    private String nombre;
     private final String nit;
     private final List<InventarioComponent> bodegas = new ArrayList<>();
 
@@ -38,6 +38,8 @@ public class Empresa implements InventarioComponent {
     // ── InventarioComponent ───────────────────────────────────────────────
 
     @Override public String getNombre() { return nombre; }
+
+    @Override public void setNombre(String nombre) { this.nombre = nombre; }
 
     /** Un único getCantidadTotal() consolida todo el inventario de la empresa. */
     @Override

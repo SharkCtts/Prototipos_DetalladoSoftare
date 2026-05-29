@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class Bodega implements InventarioComponent {
 
-    private final String nombre;
+    private String nombre;
     private final String ciudad;
     private final List<InventarioComponent> estanterias = new ArrayList<>();
 
@@ -33,6 +33,8 @@ public class Bodega implements InventarioComponent {
     // ── InventarioComponent ───────────────────────────────────────────────
 
     @Override public String getNombre() { return nombre; }
+
+    @Override public void setNombre(String nombre) { this.nombre = nombre; }
 
     @Override
     public int getCantidadTotal() {

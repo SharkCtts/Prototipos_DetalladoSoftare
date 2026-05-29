@@ -22,7 +22,7 @@ import java.util.List;
  */
 public class Estanteria {
 
-    private final String nombre;
+    private String nombre;
     private final String zona;
     private final List<Producto> productos;
     private final List<SensorIoT> sensores;
@@ -49,6 +49,7 @@ public class Estanteria {
     }
 
     public String          getNombre()    { return nombre; }
+    public void            setNombre(String nombre) { this.nombre = nombre; }
     public String          getZona()      { return zona; }
     public List<Producto>  getProductos() { return Collections.unmodifiableList(productos); }
     public List<SensorIoT> getSensores()  { return Collections.unmodifiableList(sensores); }

@@ -18,7 +18,7 @@ import visitor.InventarioVisitor;
  */
 public class Producto {
 
-    private final String nombre;
+    private String nombre;
     private final String sku;
     private final String proveedor;
     private final double precio;
@@ -59,6 +59,7 @@ public class Producto {
     // ── Getters ───────────────────────────────────────────────────────────
 
     public String getNombre()     { return nombre; }
+    public void   setNombre(String nombre) { this.nombre = nombre; }
     public String getSku()        { return sku; }
     public String getProveedor()  { return proveedor; }
     public double getPrecio()      { return precio; }
